@@ -41,40 +41,74 @@
     font-size: 1.5rem;
     box-shadow: 1px 1px #322c2d;
 
+   background-color: #094377;
+   color: white;
+
   }
 
 
   .App{
-      padding: 5%;
+      padding: 5% 0% 5% 5%;;
       display: flex;
       flex-direction: row;
-      flex-wrap: wrap;
+    //   flex-wrap: wrap;
+  }
+
+  .button-wrapper {
+      display: flex;
+  }
+  .btnWrapper{
+      display: flex;
+      flex-direction: column;
   }
 
      div.numbers {
+
         justify-content: space-between;
-        width: 65%;
+        width: 95%;
         flex-wrap: wrap;
-        width: 70%;
-        border: 2px solid orange;
+        margin: 0 2% 2% 0;
+        // border: 2px solid orange;
+
+        button:nth-child(10){
+            width: 210px;
+            border-radius: 40px;
+        }
 
       }
   
 div.specialsDiv {
     margin: 0 2% 2% 0;
     justify-content: space-between;
-    width: 65%;
+    width: 95%;
     display: flex;
-    border: 2px solid pink;
+    // border: 2px solid pink;
 
+    button{
+        background-color:#0b5d9b;
+
+    }
 
 }
 
+.opButtons {
+    width: 20%;
+    padding: 5% 10% 0 0;
+    
+
+}
 div.operators{
+
     margin: 0 2% 2% 0;
     width: 100%;
+    height: 95%;
+    justify-content: space-evenly;
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    // border: 1px solid black;
+    button{
+        background-color:#007291;
+
+    }
 
 }

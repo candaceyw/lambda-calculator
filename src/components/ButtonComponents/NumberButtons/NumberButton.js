@@ -1,5 +1,4 @@
 import React from "react";
-import './Numbers.scss';
 
 const NumberButton = (props) => {
  

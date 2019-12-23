@@ -25,15 +25,25 @@ function App(props) {
     <div className="container">
       <Logo />
       <Display />
-
+    
+    <div className="button-wrapper">
       <div className="App">
+
+        <div className='btnWrapper'>
+          <div className="specButtons">
           <Specials />
+          </div>
+          <div className="numsButtons">
           <Numbers />
-      </div>
-        <Operators />
-          {/* <Numbers onButtonPress={numberHandler} /> */}
-        {/* <Operators onButtonPress={operatorHandler} /> */}
+          </div>
+        </div>
         
+      </div>
+
+      <div className="opButtons">
+        <Operators />
+        </div>
+        </div>
       </div>
   );
 }

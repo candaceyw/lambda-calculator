@@ -2,8 +2,6 @@ import React, {useState} from "react";
 import { numbers } from '../../../data';
 
 import NumberButton from './NumberButton';
-import './Numbers.scss';
-
 
 const Numbers = () => {
   // STEP 2 - add the imported data to state

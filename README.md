@@ -30,14 +30,14 @@ This project was put together using create-react-app (CRA). You will not need to
 - [x] Using the same command tool (yarn or npm) start up the app using `yarn start` or `npm start`
 - [x] Create a new branch: git checkout -b `<firstName-lastName>`.
       Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge Branch into master (student's Repository). **Please don't merge your own pull request**
-- [ ] Add your team lead as a reviewer on the pull-request
-- [ ] Your team lead will count the project as complete by merging the branch back into master.
-- [ ] Do your magic!
+- [x] Submit a Pull-Request to merge Branch into master (student's Repository). **Please don't merge your own pull request**
+- [x] Add your team lead as a reviewer on the pull-request
+- [x] Your team lead will count the project as complete by merging the branch back into master.
+- [x] Do your magic!
 
 # _Project - Lambda Calculator_
 
@@ -55,8 +55,8 @@ Using the design file, build out your User Interface. Before you start, look thr
 **STEP 1**
 
 - [x] You have been given a Data.js file that contains some arrays.
-- [ ] Find a way to bring (import) the data into the necessary files, but do not change the data.
-- [ ] Data should be imported into the wrapper components (`Numbers`, `Operators`, and `Specials`)
+- [x] Find a way to bring (import) the data into the necessary files, but do not change the data.
+- [x] Data should be imported into the wrapper components (`Numbers`, `Operators`, and `Specials`)
 
 **Step 2**
 Add the data to state like this:
@@ -72,20 +72,20 @@ const [numberState, setNumberState] = useState(numbers);
 
 **Step 3**
 
-- [ ] Map over the data and dynamically render components for each piece of data in the arrays.
-- [ ] You will need to import the component that you'll render in the map function.
+- [x] Map over the data and dynamically render components for each piece of data in the arrays.
+- [x] You will need to import the component that you'll render in the map function.
 
 **STEP 4**
 
-- [ ] Import the wrapper button components into `App.js`
-- [ ] Import the display components into `App.js` as well
-- [ ] Compose all the components inside the `App` component to get your calculator rendering on the DOM
+- [x] Import the wrapper button components into `App.js`
+- [x] Import the display components into `App.js` as well
+- [x] Compose all the components inside the `App` component to get your calculator rendering on the DOM
 
 
 **STEP 5 - (STRETCH)**
-- [ ] In each component, start designing things to match the design file
-- [ ] Style your project using any of the techniques from the module
-- [ ] Don't forget about className vs class on your JSX elements!!
+- [x] In each component, start designing things to match the design file
+- [x] Style your project using any of the techniques from the module
+- [x] Don't forget about className vs class on your JSX elements!!
 
 It's time to start thinking about functionality. Before getting into this, let's try and plan out all the moving pieces you'll need.
 
@@ -99,8 +99,8 @@ This is where you're JavaScript skills are really going to be stretched. Remembe
 
 ## _MVP Requirements:_
 
-- [ ] Get at least one set of buttons(numbers, operators, or special buttons) to reflect the design spec.
-- [ ] Use the state hook function to get the app to display some data.
+- [x] Get at least one set of buttons(numbers, operators, or special buttons) to reflect the design spec.
+- [x] Use the state hook function to get the app to display some data.
 
 **Here is your design spec:**
 
@@ -119,8 +119,8 @@ This is where you're JavaScript skills are really going to be stretched. Remembe
 
 Do not attempt stretch problems until MVP has been reached and a final commit has been made.
 
-- [ ] STEP 5 from above
+- [x] STEP 5 from above
 - [ ] Finish the logic so the calculator is fully functional. Feel free to change the array data, or lose it entirely, as you see fit.
-- [ ] Finish styling all of the buttons and get your calculator to closely resemble the given design spec. 
+- [x] Finish styling all of the buttons and get your calculator to closely resemble the given design spec. 
 - [ ] Add some icons to improve the operator characters aesthetics. Research any icon/font library and implement it into your project.
-- [ ] Convert your CSS styling to use Sass/Scss
+- [x] Convert your CSS styling to use Sass/Scss
