@@ -7,20 +7,20 @@ function App() {
 	const [ history, setHistory ] = useState([]);
 	return (
 		<div className="wrapper">
-			<div className="history">
+			{/* <div className="history">
 				<h1>History</h1>
 
 				{history.map((item, idx) => {
 					return (
 						<p key={idx}>
 							{item.problem}={item.solution}
-						</p>
-					);
-				})}
-				<button id="historyButton" onClick={() => setHistory([])}>
+						</p> */}
+					{/* );
+				})} */}
+				{/* <button id="historyButton" onClick={() => setHistory([])}>
 					Clear History
-				</button>
-			</div>
+				</button> */}
+			{/* </div> */}
 			<div className="container">
 				<div className="App" />
 				<Header />
